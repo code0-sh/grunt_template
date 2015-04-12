@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+.test1 {
+  background: #738;
+  color: #fff;
+  height: 100px;
+  width: 100px;
+
+  .inner {
+    color: #333;
+    padding: 20px;
+  }
+}

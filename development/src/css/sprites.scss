@@ -1,0 +1,31 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+$logo01-x: 0px;
+$logo01-y: 0px;
+$logo01-offset-x: 0px;
+$logo01-offset-y: 0px;
+$logo01-width: 360px;
+$logo01-height: 424px;
+$logo01-total-width: 725px;
+$logo01-total-height: 424px;
+$logo01-image: '../images/sprite.png';
+$logo01: 0px 0px 0px 0px 360px 424px 725px 424px '../images/sprite.png';
+$logo02-x: 365px;
+$logo02-y: 0px;
+$logo02-offset-x: -365px;
+$logo02-offset-y: 0px;
+$logo02-width: 360px;
+$logo02-height: 424px;
+$logo02-total-width: 725px;
+$logo02-total-height: 424px;
+$logo02-image: '../images/sprite.png';
+$logo02: 365px 0px -365px 0px 360px 424px 725px 424px '../images/sprite.png';
+
