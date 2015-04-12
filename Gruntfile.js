@@ -154,12 +154,8 @@ module.exports = function(grunt) {
     },
     esteWatch: {
       options: {
-        dirs: ['<%= paths.src_dir %>**/*.hbs',
-          '<%= paths.src_dir %><%= paths.csss_dir %>**/*.scss',
-          '<%= paths.src_dir %><%= paths.js_dir %>**/*.js',
-          '<%= paths.src_dir %><%= paths.spec_dir %>**/*.js',
-          '<%= paths.src_dir %>data/**/*.yml',
-          '<%= paths.src_dir %><%= paths.img_dir %>**'
+        dirs: [
+          '<%= paths.src_dir %>**'
         ],
         livereload: {
           enabled: true,
